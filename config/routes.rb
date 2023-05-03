@@ -18,7 +18,6 @@ Rails.application.routes.draw do
   # DELETE
   delete("/movies/:id", { :controller => "movies", :action => "destroy" })
 
-
-  # test
+  # Check (This is a test)
   #------------------------------
 end
